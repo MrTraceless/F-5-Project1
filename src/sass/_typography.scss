@@ -27,6 +27,32 @@
   url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
 }
 
+// font-family: 'Oswald';
+@font-face {
+  font-family: 'Oswald';
+  font-weight: normal;
+  src: local('Oswald'), local('Oswald-Regular');
+  src: url('../fonts/Oswald-Regular.eot');
+  src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Oswald-Regular.woff2') format('woff2'),
+  url('../fonts/Oswald-Regular.woff') format('woff'),
+  url('../fonts/Oswald-Regular.ttf') format('truetype'),
+  url('../fonts/Oswald-Regular.svg#Oswald-Regular') format('svg');
+}
+
+// font-family: 'Oswald';
+// font-weight: 700;
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 700;
+  src: local('Oswald'), local('Oswald-Regular');
+  src: url('../fonts/Oswald-Bold.eot');
+  src: url('../fonts/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Oswald-Bold.woff2') format('woff2'),
+  url('../fonts/Oswald-Bold.woff') format('woff'),
+  url('../fonts/Oswald-Bold.ttf') format('truetype'),
+  url('../fonts/Oswald-Bold.svg#Oswald-Bold') format('svg');
+}
 // Main title style
 h1, h2, h3, h4, h5 {
   font-family: $font-family;
