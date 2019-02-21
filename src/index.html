@@ -10,13 +10,73 @@
 <body>
 	@@include('_include/header.html')
 
-	<div class="banner">
-		<div class="banner__container">
-			<div class="banner__block">
-				<a href="#"><img src="images/banner-logo.png" alt="logo"></a>
+	@@include('_include/banner.html')
+
+	<main class="mainContainer">
+
+		<section class="ourStory">
+			<h1 class="ourStory__title">Our story</h1>
+			<p class="ourStory__text">Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. 
+				Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam 
+				nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor 
+				sit amet, consectetuer adipisc ing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. 
+				Dolore magna aliquam erat volutpat.
+			</p>
+		</section>
+
+		<section class="image-block">
+
+			<div class="image-block__img">
+				<img src="images/wine1.png" alt="Wine-image">
 			</div>
-		</div>
-	</div>
+
+			<div class="image-block__img">
+				<img src="images/wine2.png" alt="Wine-image">
+			</div>
+
+			<div class="image-block__img">
+				<img src="images/wine3.png" alt="Wine-image">
+			</div>
+
+		</section>
+
+
+		<section class="subscribe">
+
+			<div class="email-container">
+
+				<div class="container__outer">
+
+						<form class="form">
+							<input type="email" placeholder="Enter your e-mail" class="form__input">
+							<button type="button" class="form__btn">
+								subscribe<span class="form__btn--arrow">&gt;</span>
+							</button>
+						</form>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="meetUs">
+			<div class="meetUs-container">
+				<div class="meetUs-block">
+					<h2 class="meetUs-block__title">Meet us</h2>
+					<p class="meetUs-block__text">Lorem ipsum dolor sit amet, consectetuer 
+					dipisc ing elit, sed diam nonummy nibh 
+					euismod tincidunt ut laoreet. 
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="contactUs">
+			<div></div>
+		</section>
+
+	</main>
 
 	<!-- <div class="page-container">
 		<h1>Hello world!</h1>

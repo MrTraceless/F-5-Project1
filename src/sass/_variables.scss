@@ -1,13 +1,16 @@
 //  Main Color
 $body-bg: #fff;
 $text-color: #333;
+$text-color2: #666;
+$border-color: #781241;
 
 // Color link
 $link-color: #55b3f3;
 $link-color--hover: darken($link-color, 20%);
 
 //  Typography
-$font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family: 'Oswald', Helvetica, Arial, sans-serif;
+$sont-family__text: 'GaramondPremrPro', Helvetica, Arial, sans-serif;
 // $font-family--helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Main Typography variables
@@ -17,7 +20,7 @@ $line-height: 1.2;
 
 // Custom Container setting
 $container-padding: 15px;
-$container-width: 1170px + $container-padding * 2;
+$container-width: 1180px + $container-padding * 2;
 
 //Breakpoints variables
 // $screen-xs: 0;
