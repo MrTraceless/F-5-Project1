@@ -50,7 +50,7 @@
 						<form class="form">
 							<input type="email" placeholder="Enter your e-mail" class="form__input">
 							<button type="button" class="form__btn">
-								subscribe<span class="form__btn--arrow">&gt;</span>
+									subscribe <span class="form__btn--arrow"><i class="fas fa-chevron-right"></i></span>
 							</button>
 						</form>
 
@@ -61,7 +61,9 @@
 		</section>
 
 		<section class="meetUs">
+
 			<div class="meetUs-container">
+
 				<div class="meetUs-block">
 					<h2 class="meetUs-block__title">Meet us</h2>
 					<p class="meetUs-block__text">Lorem ipsum dolor sit amet, consectetuer 
@@ -69,20 +71,17 @@
 					euismod tincidunt ut laoreet. 
 					</p>
 				</div>
+
 			</div>
+
 		</section>
 
-		<section class="contactUs">
-			<div></div>
-		</section>
+		@@include('_include/contactUs.html')
 
 	</main>
 
-	<!-- <div class="page-container">
-		<h1>Hello world!</h1>
-	</div> -->
-
 	@@include('_include/footer.html')
 	@@include('_include/inc_script.html')
+
 </body>
 </html>
