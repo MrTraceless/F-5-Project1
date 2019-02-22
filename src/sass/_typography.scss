@@ -3,7 +3,8 @@
 // font-family: 'Oswald';
 @font-face {
   font-family: 'Oswald';
-  font-weight: normal;
+  font-weight: 400;
+  font-style: normal;
   src: local('Oswald'), local('Oswald-Regular');
   src: url('../fonts/Oswald-Regular.eot');
   src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
@@ -17,18 +18,20 @@
 @font-face {
   font-family: 'Oswald';
   font-weight: 400;
+  font-style: normal;
   src: local('Oswald'), local('Oswald-Light');
   src: url('../fonts/Oswald-Light.eot');
   src: url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
   url('../fonts/Oswald-Light.woff') format('woff'),
   url('../fonts/Oswald-Light.ttf') format('truetype'),
-  url('../fonts/Oswald-Light.svg#Oswald-Ligh') format('svg');
+  url('../fonts/Oswald-Light.svg#Oswald-Light') format('svg');
 }
 
 // font-family: 'Garamond Premr Pro'
 @font-face {
   font-family: 'Garamond Premr Pro';
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
   
   src: local('GaramondPremrPro'), local('GaramondPremrPro');
   src: url('../fonts/GaramondPremrPro.eot');
