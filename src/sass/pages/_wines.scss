@@ -1,0 +1,108 @@
+.our-wines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+  &-container {
+    width: 100%;
+    border-top: 2px solid $text-color2;
+    margin-top: 36px;
+
+    &-inner {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 98%;
+      margin: 0 auto;
+
+      &:before {
+        position: absolute;
+        display: block;
+        content: '';
+        top: 3px;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: $text-color2;
+      }
+    }
+  }
+}
+
+.wine-block {
+  width: 100%;
+  border-bottom: 1px solid $text-color2;
+  display: flex;
+  justify-content: center;
+}
+
+.wine-bottle {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid $text-color2;
+  padding-top: 45px;
+  padding-bottom: 63px;
+
+  &__icon {
+    width: 40px;
+    height: 68px;
+    background-image: url('../../images/small-wine-percent.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8.5%;
+    left: auto;
+    right: 7.5%;
+    bottom: auto;
+    display: block;
+  }
+
+  &__alc {
+    color: $text-color3;
+    position: absolute;
+    top: 57%;
+    left: auto;
+    right: -10px;
+    bottom: auto;
+    transform: translate(0,-50%);
+    font-size: 14px;
+    font-family: $font-family--garamond;
+    line-height: 30px;
+  }
+}
+
+.wine-info {
+  width: 60%;
+  }
+
+.wine-content {
+  padding: 30px;
+  &__text {
+    color: $text-color2;
+    font-family: $font-family--garamond;
+    font-size: $font-size2;
+    font-weight: $font-weight;
+    line-height: $line-height__text;
+  }
+
+  &-inner-title {
+    color: $text-color;
+    font-family: $font-family--garamond;
+    font-size: $font-size2;
+    line-height: $line-height__text;
+  }
+
+  &-inner-text {
+    color: $text-color2;
+    font-family: $font-family--garamond;
+    font-size: 18px;
+    font-weight: $font-weight;
+    font-style: normal;
+    line-height: $line-height__text;
+  }
+}
+

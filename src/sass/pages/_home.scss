@@ -1,0 +1,259 @@
+
+.ourStory {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 100px;
+
+      &__text {
+          width: 65%;
+          font-family: $font-family__text;
+          color: $text-color2;
+          font-size: $font-size2;
+          font-weight: 400;
+          line-height: $line-height__text;
+          text-align: center;
+          margin: 0;
+          }
+}
+
+.image-block {
+      padding-top: 49px;
+      display: flex;
+      justify-content: space-between;
+
+    &__img {
+          width: 100%;
+          max-width: 367px;
+          max-height: 315px;
+          overflow: hidden;
+      }
+  }
+
+.subscribe {
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+  .form-container {
+      width: 100%;
+      margin: auto;
+  }
+
+  .container__outer {
+      margin: auto;
+      width: 53.3%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border-top: 2px solid $text-color2;
+      border-bottom: 2px solid $text-color2;
+      }
+
+  .form {
+      display: flex;
+      position: relative;
+
+      &::after {
+          position: absolute;
+          content: '';
+          width: 98%;
+          height: 1px;
+          left: 0;
+          right: 0;
+          bottom: 3px;
+          background: $text-color2;
+          margin: auto;
+          }
+
+      &::before {
+          position: absolute;
+          content: '';
+          width: 98%;
+          margin: auto;
+          height: 1px;
+          left: 0;
+          right: 0;
+          background: $text-color2;
+          top: 3px;
+          }
+
+      &__input {
+          width: 100%;
+          border: none;
+          color: $text-color;
+          font-family: $font-family--garamond;
+          font-weight: $font-weight;
+          font-style: normal;
+          font-size: 20px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          }
+
+      &__btn {
+          color: $text-color;
+          display: flex;
+          font-family: $font-family;
+          font-weight: 600;
+          font-style: normal;
+          border: none;
+          border-left: 1px solid $text-color2;
+          background-color: $body-bg;
+          font-size: 15px;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          &--arrow {
+              padding-left: 38px;
+              color: $text-color;
+
+              &:hover {
+                  color: $text-color3;
+              }
+          }
+
+          &:hover {
+              color: $text-color3;
+          }
+          }
+      }
+
+.meetUs {
+      width: 100%;
+      background-image: url('../../images/meetUs-img.png');
+      height: 430px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-container {
+          padding: 10px;
+          background-color: $body-bg;
+      }
+
+      &-block {
+          width: 372px;
+          height: 215px;
+          border: 2px solid $border-color;
+          background-color: $body-bg;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+
+          &__title {
+              margin: 0;
+              font-size: $font-size2;
+              text-transform: uppercase;
+              text-align: center;
+              padding-top: 32px;
+              padding-bottom: 41px;
+      }
+
+          &__text {
+              color: $text-color2;
+              margin: 0;
+              text-align: center;
+              width: 80%;
+              font-size: $font-size2;
+              font-family: "Garamond Premr Pro";
+              font-style: italic;
+              line-height: $line-height__text;
+              }
+            }
+  }
+
+  .contactUs {
+      padding-top: 100px;
+
+      &-container {
+          width: 100%;
+          margin: auto;
+
+          &__outer {
+              position: relative;
+              margin: auto;
+              width: 100%;
+              border-top: 2px solid $text-color2;
+              border-bottom: 2px solid $text-color2;
+              display: flex;
+              flex-direction: row;
+
+              &::after {
+                  position: absolute;
+                  content: '';
+                  width: 98%;
+                  height: 1px;
+                  left: 0;
+                  right: 0;
+                  background: $text-color2;
+                  margin: auto;
+                  top: 3px
+              }
+
+              &::before {
+                  position: absolute;
+                  content: '';
+                  width: 98%;
+                  margin: auto;
+                  height: 1px;
+                  left: 0;
+                  right: 0;
+                  background: $text-color2;
+                  bottom: 3px;
+              }
+          }
+      }
+
+      &-block {
+          width: 33%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-right: 1px solid $text-color;
+          padding-top: 41px;
+
+          &:last-child {
+              border-right: none;
+          }
+
+          &:nth-child(2) {
+              flex-basis: 40%;
+          }
+
+          &__title {
+              color: $text-color;
+              font-family: $font-family;
+              font-size: 16px;
+              font-weight: 700;
+              text-transform: uppercase;
+              margin-top: 0;
+              margin-bottom: 0;
+          }
+
+          &__text {
+              color: $font-family;
+              font-family: "Garamond Premr Pro";
+              font-size: 16px;
+              font-weight: 700;
+              font-style: italic;
+              margin-top: 20;
+              margin-bottom: 38px;
+          }
+      }
+
+      &-social {
+          margin-top: 14px;
+
+          &__icon {
+              padding-left: 6px;
+              padding-right: 6px;
+              color: $links-color2;
+
+              &:hover {
+                  color: $text-color3;
+              }
+          }
+      }
+  }
