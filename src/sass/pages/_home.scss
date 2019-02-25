@@ -88,33 +88,6 @@
           margin-top: 5px;
           margin-bottom: 5px;
           }
-
-      &__btn {
-          color: $text-color;
-          display: flex;
-          font-family: $font-family;
-          font-weight: 600;
-          font-style: normal;
-          border: none;
-          border-left: 1px solid $text-color2;
-          background-color: $body-bg;
-          font-size: 15px;
-          text-transform: uppercase;
-          cursor: pointer;
-
-          &--arrow {
-              padding-left: 38px;
-              color: $text-color;
-
-              &:hover {
-                  color: $text-color3;
-              }
-          }
-
-          &:hover {
-              color: $text-color3;
-          }
-          }
       }
 
 .meetUs {

@@ -3,10 +3,14 @@
     "src": "./src/",
     "dist": "./build/"
   },
+
   "assets": {
     "addJs": [
-      "./node_modules/jquery/dist/jquery.min.js"
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/masonry-layout/dist/masonry.pkgd.min.js",
+      "./node_modules/imagesloaded/imagesloaded.pkgd.min.js"
     ],
+
     "addCss": [
       "./node_modules/normalize.css/normalize.css"
     ]

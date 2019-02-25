@@ -1,0 +1,89 @@
+.events--main__title {
+    text-align: center;
+}
+.events-container {
+width: 100%;
+display: flex;
+}
+
+.event-column {
+    border-top: 2px solid $text-color2;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.event {
+    border-top: 1px solid $text-color2;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    &-block1 {
+        padding-top: 9px;
+        padding-right: 15px;
+
+        &__item {
+            width: 75px;
+            height: 75px;
+            background-color: $border-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &--desc {
+                color: $text-color1;
+                font-family: $font-family--oswald;
+                font-size: $font-size2;
+                font-weight: $font-weight;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &-block2 {
+
+        &__btn {
+            border: none;
+            float: right;
+            padding-top: 20px;
+        }
+    }
+}
+
+.calendar-column {
+    border-top: 2px solid $text-color2;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-container {
+    border-top: 1px solid $text-color2;
+    padding-top: 30px;
+    width: 98%;
+}
+
+.calendar-block {
+    width: 290px;
+    height: 340px;
+    background: $text-color3;
+}
+
+.outer-container {
+    padding-right: 67px
+}
+
+
+.paragraph {
+    color: $text-color2;
+    font-family: $font-family--garamond;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: $font-weight;
+    line-height: $line-height__text;
+    margin: 0;
+    padding-right: 20px;
+  }
