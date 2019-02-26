@@ -75,6 +75,15 @@
             margin-top: 20;
             margin-bottom: 38px;
         }
+        
+        &__link {
+            color: $links-color2;
+            padding-top: 20px;
+
+            &:hover {
+                color: $links-color2;
+            }
+        }
     }
 
     &-social {

@@ -82,6 +82,15 @@ li {
   text-transform: uppercase;
 }
 
+.def-paragraph {
+  color: $text-color2;
+  font-family: $font-family--garamond;
+  font-size: $font-size2;
+  font-weight: $font-weight;
+  line-height: $line-height__text;
+}
+
+
 h1, h2, h3, h4, h5 {
   margin: 0;
 }

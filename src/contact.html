@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wine</title>
+	<meta name="description" content="">
+	@@include('_include/head.html')
+</head>
+
+<body>
+
+        @@include('_include/header.html')
+
+        @@include('_include/wines-banner.html')
+
+    <main class="page-container">
+        <section class="contact-us">
+            <div class="contact-us-text-block">
+            <h1 class="main__title contact-us--main__title">Contact Us</h1>
+            <p class="contact-us__text">Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. 
+                Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam 
+                nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor </p>
+            </div>
+        </section>
+
+        @@include('_include/contactUs.html')
+
+        <div class="map">
+            <div class="map-block">
+
+            </div>
+        </div>
+
+        <section class="contact">
+            <div class="contact__bg">
+                <div class="form-outer-block">
+                    <div class="form-inner-block">
+                        <div class="contact-form">
+                            <h2 class="h2__title contact-form--h2__title">get in touch</h2>
+                            <form>
+                                <input type="text" placeholder="Enter your Name" class="form-input">
+                                <input type="email" placeholder="Enter your E-mail" class="form-input">
+                                <input type="text" placeholder="Enter your Subject" class="form-input">
+                                <textarea placeholder="Message" class=" form-textarea"></textarea>
+                                <button type="button" class="button form--button">send <span class="button__arrow"><i class="fas fa-chevron-right"></i></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    @@include('_include/footer.html')
+    @@include('_include/inc_script.html')
+
+</body>
+</html>
