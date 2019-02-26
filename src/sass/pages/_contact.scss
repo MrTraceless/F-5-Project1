@@ -51,7 +51,6 @@
 
 .form-inner-block {
     width: 484px;
-    height: 550px;
     background-color: $body-bg;
     border: 2px solid $border-color;
 }
@@ -64,14 +63,15 @@
         text-align: center;
         padding-bottom: 30px;
         font-size: $font-size2;
+        font-weight: $font-weight;
     }
 }
 
 .form--button {
     border: none;
     text-transform: uppercase;
-    float: right;
     padding-top: 30px;
+    padding-left: 83%;
 }
 
 .form-input {
@@ -82,9 +82,23 @@
     margin-top: 0;
     margin-bottom: 32px;
     color: $text-color4;
+    font-family: $font-family--garamond;
+
+    &:focus {
+        border-bottom: 1px solid $text-color;
+        transition: 0.5s;
+    }
+
+    &:focus::placeholder {
+        font-size: 13px;
+        transform: translateY(-20px);
+        transition: 0.5s;
+    }
+
   }
 
 .form-textarea {
+    color: $text-color4;
     border: none;
     border-bottom: 1px solid $border-input;
     resize: none;
@@ -92,6 +106,18 @@
     height: 132px;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: $font-family--garamond;
+
+    &:focus {
+        border-bottom: 1px solid $text-color;
+        transition: 0.5s;
+    }
+
+    &:focus::placeholder {
+        font-size: 13px;
+        transform: translateY(-20px);
+        transition: 0.5s;
+    }
 }
 
 
