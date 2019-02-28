@@ -9,7 +9,8 @@
     &__text {
         color: $text-color2;
         font-family: $font-family--garamond;
-        font-size: $font-size2;
+        // font-size: $font-size2;
+        @include fluid-font (14px, 20px, 320px, 2560px) ;
         font-weight: $font-weight;
         line-height: $line-height__text;
         font-style: normal;
@@ -62,7 +63,8 @@
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 30px;
-        font-size: $font-size2;
+        // font-size: $font-size2;
+        @include fluid-font (14px, 18px, 320px, 2560px) ;
         font-weight: $font-weight;
     }
 }
@@ -83,6 +85,7 @@
     margin-bottom: 32px;
     color: $text-color4;
     font-family: $font-family--garamond;
+    @include fluid-font (14px, 20px, 320px, 2560px) ;
 
     &:focus {
         border-bottom: 1px solid $text-color;

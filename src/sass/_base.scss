@@ -58,7 +58,8 @@ li {
 
 .main__title {
   text-transform: uppercase;
-  font-size: $font-size2;
+  // font-size: $font-size2;
+  @include fluid-font (16px, 20px, 320px, 2560px);
   font-family: $font-family;
   color: $text-color;
   padding-bottom: 20px;
@@ -67,7 +68,8 @@ li {
 .h2-title {
   color: $text-color;
   font-family: $font-family--oswald;
-  font-size: $font-size2;
+  // font-size: $font-size2;
+  @include fluid-font (16px, 20px, 320px, 2560px) ;
   font-weight: $font-weight;
   text-transform: uppercase;
 }

@@ -1,6 +1,10 @@
 .contactUs {
     padding-top: 100px;
 
+    @include max-w (992px) {
+        padding-top: 50px;
+    }
+
     &-container {
         width: 100%;
         margin: auto;
@@ -14,6 +18,10 @@
             display: flex;
             flex-direction: row;
 
+            @include max-w (768px) {
+                flex-direction: column;
+            }
+
             &::after {
                 position: absolute;
                 content: '';
@@ -23,7 +31,12 @@
                 right: 0;
                 background: $text-color2;
                 margin: auto;
-                top: 3px
+                top: 3px;
+
+                @include max-w (768px) {
+
+                }
+
             }
 
             &::before {
@@ -36,6 +49,11 @@
                 right: 0;
                 background: $text-color2;
                 bottom: 3px;
+
+                @include max-w (768px) {
+
+                }
+    
             }
         }
     }
@@ -48,8 +66,22 @@
         border-right: 1px solid $text-color;
         padding-top: 41px;
 
+    @include max-w (768px) {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid $text-color2;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
         &:last-child {
             border-right: none;
+
+            @include max-w (768px) {
+                border-bottom: 0;
+            }
+
         }
 
         &:nth-child(2) {
@@ -75,6 +107,10 @@
             font-style: italic;
             margin-top: 20;
             margin-bottom: 38px;
+
+            @include max-w (768px) {
+                margin-bottom: 0;
+            }
         }
         
         &__link {
@@ -91,6 +127,7 @@
         margin-top: 14px;
 
         &__icon {
+            font-size: 26px;
             padding-left: 6px;
             padding-right: 6px;
             color: $links-color2;
