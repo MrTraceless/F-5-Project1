@@ -25,12 +25,13 @@
     background-color: $body-bg;
 
     @include max-w (768px) {
-      width: 80%;
+      margin-top: 10px;
+      width: 65%;
       padding: 6px;
     }
 
     @include max-w (475px) {
-      width: 65%;
+      width: 60%;
     }
   }
 

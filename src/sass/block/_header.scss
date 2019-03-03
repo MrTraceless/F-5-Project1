@@ -5,6 +5,10 @@
   z-index: 1;
   display: flex;
   font-display: column;
+
+  @include max-w (992px) {
+    width: 100%;
+  }
 }
 
 
@@ -26,7 +30,7 @@
     font-weight: 400;
     text-transform: uppercase;
     padding: 5px;
-  
+
     &--active {
         border-bottom: 2px solid $links-color;
     }
@@ -58,7 +62,6 @@
   padding: 0;
   border: none;
   margin-top: 15px;
-  margin-left: 15px;
 
   @include max-w (992px) {
     display: block;
