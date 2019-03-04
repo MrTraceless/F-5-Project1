@@ -111,8 +111,8 @@
       border-bottom: 2px solid $text-color2;
 
       &:focus-within {
-          border-top: 2px solid #ff0000;
-          border-bottom: 2px solid #ff0000;
+          border-top: 2px solid $border-color;
+          border-bottom: 2px solid $border-color;
       }
       }
 
