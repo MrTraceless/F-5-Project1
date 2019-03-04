@@ -1,3 +1,9 @@
+.events {
+    @include max-w (768px) {
+        padding-top: 50px;
+    }
+}
+
 .events--main__title {
     text-align: center;
 }
@@ -19,9 +25,17 @@ display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
 
+    @include max-w (992px) {
+        padding-bottom: 0;
+    }
+
     &-block1 {
         float: left;
         padding-right: 20px;
+
+        @include max-w (768px) {
+            padding-right: 15px;
+        }
 
         &__item {
             width: 75px;
@@ -72,4 +86,12 @@ display: flex;
         margin: 0;
     }
 
+}
+
+.event-details--paragraph {
+    @include fluid-font (16px, 20px, 320px, 2560px) ;
+
+    @include max-w (992px) {
+        padding-right: 0;
+    }
 }
