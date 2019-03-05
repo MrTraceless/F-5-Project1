@@ -55,3 +55,9 @@ var Menu = {
   };
   
   Menu.init();
+
+  $('.menu').on('click', function (a) {
+    a.preventDefault;
+    $(this).toggleClass('burger__close');
+    $('.nav-block').toggleClass('menu-right');
+  })
