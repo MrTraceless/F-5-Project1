@@ -32,6 +32,9 @@ display: flex;
         padding-right: 15px;
         padding-bottom: 10px;
 
+        @include max-w (992px) {
+            padding-top: 0;
+        }
         @include max-w (768px) {
             padding-bottom: 15px;
         }

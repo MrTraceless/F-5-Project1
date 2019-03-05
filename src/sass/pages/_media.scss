@@ -90,6 +90,10 @@
             padding-top: 31px;
             padding-left: 26px;
             margin: 0;
+
+            @include max-w (992px) {
+                align-self: center;
+            }
         }
     
         &__title {

@@ -52,27 +52,72 @@
   }
 }
 
-//Burger button
 
-.menu-burger {
-  display: none;
+// .menu-burger {
+//   display: none;
+//   width: 20px;
+//   height: 20px;
+//   background-color: transparent;
+//   padding: 0;
+//   border: none;
+//   margin-top: 15px;
+
+//   @include max-w (992px) {
+//     display: block;
+//   }
+
+//   &__item {
+//     display: block;
+//     width: 100%;
+//     height: 2px;
+//     background: #fff;
+//     margin-top: 3px;
+//   }
+
+// }
+
+.menu {
+  margin-top: 20px;
+  cursor: pointer;
+  padding-left: 1.25em;
+  position: relative;
   width: 20px;
   height: 20px;
-  background-color: transparent;
-  padding: 0;
-  border: none;
-  margin-top: 15px;
+  display: none;
 
   @include max-w (992px) {
     display: block;
   }
-
-  &__item {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    margin-top: 3px;
-  }
-
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 3px solid white;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 6px;
+}
+.menu-bottom {
+  top: 12px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
 }
