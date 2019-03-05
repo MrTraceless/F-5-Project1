@@ -31,9 +31,19 @@
     padding-left: 54px;
     padding-right: 10px;
 
-    &__arrow {
-        padding-left: 38%;
-        color: $text-color3;
-        @include fluid-font (12px, 15px, 320px, 2560px) ;
+    &:hover {
+      color: #333;
+
+      .button__arrow {
+
+        path {
+          fill: #333;
+        }
+      }
     }
+
+     &__arrow {
+         padding-left: 38%;
+         color: $text-color3;
+     }
 }

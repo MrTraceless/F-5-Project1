@@ -113,12 +113,16 @@
 .form--button {
     border: none;
     text-transform: uppercase;
-    padding-top: 30px;
-    padding-left: 83%;
+    padding-top: 29px;
+    padding-left: 82%;
 
     @include max-w (768px) {
       padding-top: 25px;
     }
+}
+
+.form--arrow {
+  padding-left: 37px;
 }
 
 .form-input {

@@ -38,6 +38,7 @@ display: flex;
         }
 
         &__item {
+            margin-top: 7px;
             width: 75px;
             height: 75px;
             background-color: $border-color;
@@ -61,7 +62,7 @@ display: flex;
         &__btn {
             border: none;
             float: right;
-            padding-top: 20px;
+            padding-top: 15px;
         }
     }
 }
